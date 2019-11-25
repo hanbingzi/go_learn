@@ -6,6 +6,9 @@ import "fmt"
 var aa = 55
 var ss = "def"
 
+//常量,无需所有字母大写
+const bb, cc = "bbbbb", true
+
 //统一声明
 var (
 	aaa = 555
@@ -49,6 +52,7 @@ func main() {
 	multiVariableInit()
 	variableTypeDeduction()
 	variableShorter()
-	fmt.Println(aa,ss)
-	fmt.Println(aaa,sss)
+	fmt.Println(aa, ss)
+	fmt.Println(aaa, sss)
+	fmt.Println(bb, cc)
 }
